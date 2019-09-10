@@ -1,0 +1,29 @@
+{
+    "name": "mvqn/sftp",
+    "description": "A Simple File Transfer Protocol (SFTP) wrapper.",
+    "minimum-stability": "stable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Spaeth",
+            "email": "rspaeth@mvqn.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVQN\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MVQN\\": "tests/"
+        }
+    }
+}
