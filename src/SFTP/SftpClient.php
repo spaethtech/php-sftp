@@ -254,7 +254,7 @@ final class SftpClient
             throw new Exceptions\RemotePathException("The provided remote path '$remote' is not a valid directory!");
 
         // Set the remote base path.
-        $this->remoteBase = @ssh2_sftp_realpath($this->client, $remote) ?: null;
+        $this->remoteBase = @ssh2_sftp_realpath($this->client, $remote)."/" ?: null;
 
         // Return the current SftpClient!
         return $this;
@@ -276,7 +276,7 @@ final class SftpClient
             throw new Exceptions\LocalPathException("The provided local path '$local' is not a valid directory!");
 
         // Set the local base path.
-        $this->localBase = @realpath($local) ?: null;
+        $this->localBase = @realpath($local)."/" ?: null;
 
         // Return the current SftpClient!
         return $this;
