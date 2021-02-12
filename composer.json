@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MVQN\\": "./src/"
+            "rspaeth\\": "./src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MVQN\\": "tests/"
+            "rspaeth\\": "tests/"
         }
     },
     "minimum-stability": "dev",
