@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace rspaeth\SFTP\Exceptions;
+namespace MVQN\SFTP\Exceptions;
 
 final class RemoteConnectionException extends \Exception
 {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace rspaeth\SFTP\Exceptions;
+namespace MVQN\SFTP\Exceptions;
 
 final class AuthenticationException extends \Exception
 {
