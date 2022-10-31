@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MVQN\SFTP\Exceptions;
+namespace SpaethTech\SFTP\Exceptions;
 
 final class LocalStreamException extends \Exception
 {

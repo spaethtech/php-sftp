@@ -1,12 +1,12 @@
 {
-    "name": "mvqn/sftp",
+    "name": "spaethtech/sftp",
     "description": "A Simple File Transfer Protocol (SFTP) wrapper.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Ryan Spaeth",
-            "email": "rspaeth@mvqn.net"
+            "email": "rspaeth@spaethtech.com"
         }
     ],
     "require": {
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MVQN\\": "./src/"
+            "SpaethTech\\": "./src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MVQN\\": "tests/"
+            "SpaethTech\\": "tests/"
         }
     },
     "minimum-stability": "dev",
