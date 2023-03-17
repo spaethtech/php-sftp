@@ -1,5 +1,5 @@
 {
-    "name": "spaethtech/sftp",
+    "name": "spaethtech/php-sftp",
     "description": "A Simple File Transfer Protocol (SFTP) wrapper.",
     "type": "library",
     "license": "MIT",
